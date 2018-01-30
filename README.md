@@ -10,7 +10,7 @@
 2) du -ah /var/log/nginx/
 
 ######### When ngnix permission denied Command ###########
-sudo su
+- sudo su
 
 ######### List of directory command #############
 1) ls
@@ -19,53 +19,53 @@ sudo su
 ######### NGinx Server Command ###########
 
 *******First need to check server status using below command  
-sudo service nginx status
+- sudo service nginx status
 
 *******Second :- 
-sudo service nginx restart 
+- sudo service nginx restart 
 
 *******If restart is any issue 
-sudo  service nginx start
-sudo  service nginx stop
+- sudo  service nginx start
+- sudo  service nginx stop
 
 
 ######### Apache Command ###########
 
 *******First need to check server status using below command  
-sudo /etc/init.d/httpd status
+- sudo /etc/init.d/httpd status
 
 ******Apache Start
-sudo /etc/init.d/httpd start
+- sudo /etc/init.d/httpd start
 
 ******Apache Stop
-sudo /etc/init.d/httpd stop
+- sudo /etc/init.d/httpd stop
 
 ******Apache restart
-sudo /etc/init.d/httpd restart
+- sudo /etc/init.d/httpd restart
 
 
 ######### fastcgi Command ###########
 
 ******fastcgi restart
-sudo service php-fpm restart
+- sudo service php-fpm restart
 
 ******fastcgi check status
-sudo service php-fpm status
+- sudo service php-fpm status
 
 
 ########### CronTab Command #############
 
 ********** Crontab status
-service crond status
+- service crond status
 
 ********** Crontab restart
-sudo service crond restart
+- sudo service crond restart
 
 ********** Crontab stop
-service crond stop
+- service crond stop
 
 ********** Crontab start
-service crond start
+- service crond start
 
 ***********First run this command for change in cron
 1) crontab -e
