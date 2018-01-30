@@ -2,7 +2,7 @@
 
 
 ######### This command copy file ######### 
-sudo cp /var/log/nginx/access.log-20171129.gz /var/www/html/
+- sudo cp /var/log/nginx/access.log-20171129.gz /var/www/html/
 
 
 ######### This command for check spaces useses ##########
